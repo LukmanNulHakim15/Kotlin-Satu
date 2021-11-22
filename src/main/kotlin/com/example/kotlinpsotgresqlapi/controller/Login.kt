@@ -5,7 +5,7 @@ import org.springframework.data.relational.core.mapping.Column
 import org.springframework.data.relational.core.mapping.Table
 
 @Table("login")
-data class login (
+data class Login (
 
     @Id
     @Column("email")
