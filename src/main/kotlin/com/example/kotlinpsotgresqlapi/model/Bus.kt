@@ -9,15 +9,15 @@ data class Bus (
 
     @Id
     @Column("nomor_polisi")
-    var nomor_polisi: String,
+    var nomor_polisi: String, //field yang akan sama dengan atribut didatabase
 
     @Column("kapasitas")
-    var kapasitas: Int,
+    var kapasitas: Int, //field yang akan sama dengan atribut didatabase
 
     @Column("nama_supir")
-    var nama_supir: String,
+    var nama_supir: String, //field yang akan sama dengan atribut didatabase
 
     @Column("nama_perusahaan")
-    var nama_perusahaan: String
+    var nama_perusahaan: String //field yang akan sama dengan atribut didatabase
 
         )
